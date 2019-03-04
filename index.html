@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>腾讯技术网_地址发布页</title>
+<meta name="keywords" content="最新地址">
+<meta name="description" content="最新电影">
+<script type="text/javascript" language="javascript" src="js/jquery-1.js"></script>
+<link rel="stylesheet" href="css/temp.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" language="javascript">
+	$(function(){
+	$('#sms_ico').poshytip();
+	$('#hotel_ico').poshytip();
+	$('#travel_ico').poshytip();
+	$('#game_ico').poshytip();
+});
+	
+	function _load(){
+		var _bodyHeight =parseInt(document.documentElement.clientHeight);
+		var _height = parseInt(document.getElementById("footer").offsetHeight);
+		var _centerHeight = parseInt(document.getElementById("center").offsetHeight);
+		var _contentHeight = _bodyHeight - _centerHeight;
+		if(_contentHeight>_height){
+		document.getElementById('footer').style.height=_contentHeight-27+'px'; 
+		}
+	}
+	$(window).resize(function(){
+	   _load();
+	});
+	
+</script>
+<style id="poshytip-css-tip-yellow" type="text/css">div.tip-yellow{visibility:hidden;position:absolute;top:0;left:0;}div.tip-yellow table, div.tip-yellow td{margin:0;font-family:inherit;font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;}div.tip-yellow td.tip-bg-image span{display:block;font:1px/1px sans-serif;height:10px;width:10px;overflow:hidden;}div.tip-yellow td.tip-right{background-position:100% 0;}div.tip-yellow td.tip-bottom{background-position:100% 100%;}div.tip-yellow td.tip-left{background-position:0 100%;}div.tip-yellow div.tip-inner{background-position:-10px -10px;}div.tip-yellow div.tip-arrow{visibility:hidden;position:absolute;overflow:hidden;font:1px/1px sans-serif;}</style></head>
+
+<body onload="_load()">
+	<div id="center">
+		<div class="ico">
+		8866h.ml<br>
+		2233h.ml<br>
+		4455h.ml<br>
+		hhkkh.ml<br>
+		6677h.ml<br>
+		heige.ml<br>
+		
+		#找不到最新地址请发送 地址 二字到邮箱u1kwin@gmail.comml
+		
+		</div>
+	</div>
+	<div style="height: 117px;" id="footer">
+ 
+  <p> 2002-2020. <br>
+	</p>
+	
+	</div>
+
+
+
+</body></html>
